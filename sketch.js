@@ -25,9 +25,10 @@ function draw() {
     background(myColor)
     push()
     fill(250)
-    textSize(10);
+    textSize(12);
     textFont('Allerta Stencil')
-    text('The fireflies rut out from the light.\nShake your phone strongly few seconds to scare them.\nBe aware, they will come back!',windowWidth/4, windowHeight/4)
+    textAlign(CENTER)
+    text('The fireflies rut out from the light.\nShake your phone five seconds to scare them.\nBe aware, they will come back!',windowWidth/2, windowHeight/2)
     pop()
     if (r >5){
       r-=5
